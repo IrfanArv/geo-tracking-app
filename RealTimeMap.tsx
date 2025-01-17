@@ -127,7 +127,7 @@ const RealTimeMap = (): React.JSX.Element => {
         },
         {
           enableHighAccuracy: true,
-          distanceFilter: 20, // Update location every 100 meters
+          distanceFilter: 100, // Update location every 100 meters
         },
       );
     } catch (error) {
